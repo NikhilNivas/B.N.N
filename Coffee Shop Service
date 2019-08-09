@@ -1,0 +1,12 @@
+#include <iostream>
+using namespace std;
+int main () {
+	int n, d, s = 0;
+	cin >> n>> d;
+	while ( n != 0 )
+	{
+	    s = s + n;
+	    n = n* ( ( float ) ( 100 - d ) ) / 100.0;
+	}
+	cout<<s<<"\n";
+}
